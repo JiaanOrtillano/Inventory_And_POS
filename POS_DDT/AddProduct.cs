@@ -52,7 +52,12 @@ namespace POS_DDT
 
         private void Print_btn_Click(object sender, EventArgs e)
         {
-           
+            //printing function
+            if (!String.IsNullOrEmpty(inventory))
+            {
+                PrintDDT Print = new PrintDDT(this.inventory); //create instance of report viewer
+                Print.Show();
+            } else { MessageBox.Show("Unspecified Warehouse Location"); }
         }
 
         private void Warehouse_location_cmbox_SelectedIndexChanged(object sender, EventArgs e)
