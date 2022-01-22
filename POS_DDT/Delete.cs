@@ -79,7 +79,7 @@ namespace POS_DDT
             try
             {
 
-                informations.info_brand_search = Dbrand_txtbox.Text;
+                informations.info_product_search = Dproduct_search_txtbox.Text;
                 datatable = operation.search_product(informations);
                 Dproduct_datagrid.DataSource = datatable;
 
