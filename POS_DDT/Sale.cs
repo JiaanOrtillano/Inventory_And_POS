@@ -48,15 +48,14 @@ namespace POS_DDT
 
             }
             
-            private void update_product_btn_Click(object sender, EventArgs e)
+        }
+        
+         private void update_product_btn_Click(object sender, EventArgs e)
         {
             UpdateProduct updateProduct = new UpdateProduct();
             showControl(updateProduct);
             stock_btn.ForeColor = Color.Black;
             update_product_btn.ForeColor = Color.FromArgb(118, 159, 205);
-        }
-
-
         }
 
     }
