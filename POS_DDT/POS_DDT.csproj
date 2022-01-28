@@ -202,6 +202,12 @@
     <Compile Include="AddProduct.Designer.cs">
       <DependentUpon>AddProduct.cs</DependentUpon>
     </Compile>
+    <Compile Include="UpdateProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UpdateProduct.Designer.cs">
+      <DependentUpon>UpdateProduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="UpdateWindow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -244,6 +250,9 @@
     </Compile>
     <EmbeddedResource Include="Stocks.resx">
       <DependentUpon>Stocks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateProduct.resx">
+      <DependentUpon>UpdateProduct.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UpdateWindow.resx">
       <DependentUpon>UpdateWindow.cs</DependentUpon>

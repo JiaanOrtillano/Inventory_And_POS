@@ -81,7 +81,5 @@ namespace POS_DDT
                 this.Close();
             }
         }
-
-      
     }
 }
